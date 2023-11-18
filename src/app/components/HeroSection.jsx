@@ -13,7 +13,7 @@ export const HeroSection = () => {
               className="text-transparent bg-clip-text 
             bg-gradient-to-r from-[#3AAFA9] to-[#DEF2F1] "
             >
-              Hello, I'm{" "}
+              Hello, I&apos;m{" "}
             </span>
             <br/>
             <TypeAnimation
