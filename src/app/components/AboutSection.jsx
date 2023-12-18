@@ -9,7 +9,7 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul>
-        <li>
+        <li className="py-1">
           <span className="text-[#3AAFA9]">Languages</span>
           <br />
           <p>
@@ -17,17 +17,17 @@ const TAB_DATA = [
             Language (PHP | JavaScript)
           </p>
         </li>
-        <li>
+        <li className="py-1">
           <span className="text-[#3AAFA9]">Databases</span>
           <br />
           <p>MySQL | MSSQL | NoSQL(Firebase)</p>
         </li>
-        <li>
+        <li className="py-1">
           <span className=" text-[#3AAFA9] ">Libraries</span>
           <br />
           <p>Tensorflow | Keras | Pandas | NumPy | PyTorch | Matplotlib</p>
         </li>
-        <li>
+        <li className="py-1">
           <span className="text-[#3AAFA9]">Frameworks</span>
           <br />
           <p>ASP.net | ASP.core</p>
@@ -47,30 +47,31 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul className="list-disc pl-4">
-        <li>
+      <ul //className="list-disc pl-4"
+      >
+        <li className="py-1">
           <span className="text-[#3AAFA9]">University</span>
           <br />
           <p>
             Ahsanullah University of Science & Technology, Dhaka
           </p>
-          <i style={{ fontSize: 14 }}>Computer Science & Engineering . Bachelor Of Science (B.Sc)</i>
+          <i style={{ fontSize: 12 }}>Computer Science & Engineering . Bachelor Of Science (B.Sc)</i>
         </li>
-        <li>
+        <li className="py-1">
           <span className="text-[#3AAFA9]">College</span>
           <br />
           <p>
             Bogura Cantonment Public School & College, Bogura
           </p>
-          <i style={{ fontSize: 14 }}>Science . Higher Secondary School Certificate(H.S.C)</i>
+          <i style={{ fontSize: 12 }}>Science . Higher Secondary School Certificate(H.S.C)</i>
         </li>
-        <li>
+        <li className="py-1">
           <span className="text-[#3AAFA9]">School</span>
           <br />
           <p>
             Bogura Cantonment Public School & College, Bogura
           </p>
-          <i style={{ fontSize: 14 }}>Science . Secondary School Certificate(S.S.C)</i>
+          <i style={{ fontSize: 12 }}>Science . Secondary School Certificate(S.S.C)</i>
         </li>
       </ul>
     ),
@@ -79,8 +80,15 @@ const TAB_DATA = [
     title: "Certification",
     id: "certification",
     content: (
-      <ul className="list-disc pl-4">
-        <li> Coming Soon</li>
+      <ul //className="list-disc pl-4" 
+      >
+        <li className="py-1">
+          <span className="text-[#3AAFA9]">Field Of Natural Language Processing</span>
+          <br />
+          <p>
+          A Study on Music Genre Classification And Lyrics Generation of Bangla Songs Dataset
+          </p>
+        </li>
       </ul>
     ),
   },
@@ -98,14 +106,16 @@ const AboutSection = () => {
 
   return (
     <section className="text-white">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 ">
-        <Image src="/images/croped.jpg" width={500} height={500} alt="picture of reshad for about section" />
+      <div className="md:grid md:grid-cols-2 gap-8 items-fix py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 ">
+        <Image src="/images/cropeddn m.jpeg" width={500} height={500} alt="picture of reshad for about section" className="justify" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            hello I am Reshad... md:grid md:grid-cols-2 gap-8 items-center py-8
-            px-4 xl:gap-16 sm:py-16 xl:px-16 Lorem ipsum In publishing and
-            graphic design.
+            hello I am Reshad... I&apos;ve completed my graduation on Computer Science & Engineering. 
+            Fresher, proficient in web development, machine learning, and research. 
+            Authored one conference paper in the field of NLP. Skilled in various programming 
+            languages and various libraries. Seeking new opportunities to drive innovation and
+            contribute to exciting projects 
           </p>
           <div className="flex flex-row justify-start mt-8 ">
             <TabButton
@@ -127,10 +137,10 @@ const AboutSection = () => {
               active={tab == "certification"}
             >
               {" "}
-              Certification{" "}
+              Publication{" "}
             </TabButton>
           </div>
-          <div className="mt-6">
+          <div className="mt-2">
             {TAB_DATA.find((t) => t.id == tab).content}
           </div>
         </div>
