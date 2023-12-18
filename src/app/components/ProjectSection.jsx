@@ -37,7 +37,7 @@ const ProjectSection = () => {
   const handleTagChange = (newTag) => {
     setTag(newTag);
   };
-  const filteredProjects = projectData.filter((project) => 
+  const filteredProjects = projectData.filter((project) =>
     project.tag.includes(tag)
   );
   return (

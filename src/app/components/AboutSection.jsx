@@ -1,5 +1,5 @@
 "use client";
-import React, { useTransition, useState,  } from "react";
+import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 
@@ -52,26 +52,26 @@ const TAB_DATA = [
         <li className="py-1">
           <span className="text-[#3AAFA9]">University</span>
           <br />
-          <p>
-            Ahsanullah University of Science & Technology, Dhaka
-          </p>
-          <i style={{ fontSize: 12 }}>Computer Science & Engineering . Bachelor Of Science (B.Sc)</i>
+          <p>Ahsanullah University of Science & Technology, Dhaka</p>
+          <i style={{ fontSize: 12 }}>
+            Computer Science & Engineering . Bachelor Of Science (B.Sc)
+          </i>
         </li>
         <li className="py-1">
           <span className="text-[#3AAFA9]">College</span>
           <br />
-          <p>
-            Bogura Cantonment Public School & College, Bogura
-          </p>
-          <i style={{ fontSize: 12 }}>Science . Higher Secondary School Certificate(H.S.C)</i>
+          <p>Bogura Cantonment Public School & College, Bogura</p>
+          <i style={{ fontSize: 12 }}>
+            Science . Higher Secondary School Certificate(H.S.C)
+          </i>
         </li>
         <li className="py-1">
           <span className="text-[#3AAFA9]">School</span>
           <br />
-          <p>
-            Bogura Cantonment Public School & College, Bogura
-          </p>
-          <i style={{ fontSize: 12 }}>Science . Secondary School Certificate(S.S.C)</i>
+          <p>Bogura Cantonment Public School & College, Bogura</p>
+          <i style={{ fontSize: 12 }}>
+            Science . Secondary School Certificate(S.S.C)
+          </i>
         </li>
       </ul>
     ),
@@ -80,13 +80,16 @@ const TAB_DATA = [
     title: "Certification",
     id: "certification",
     content: (
-      <ul //className="list-disc pl-4" 
+      <ul //className="list-disc pl-4"
       >
         <li className="py-1">
-          <span className="text-[#3AAFA9]">Field Of Natural Language Processing</span>
+          <span className="text-[#3AAFA9]">
+            Field Of Natural Language Processing
+          </span>
           <br />
           <p>
-          A Study on Music Genre Classification And Lyrics Generation of Bangla Songs Dataset
+            A Study on Music Genre Classification And Lyrics Generation of
+            Bangla Songs Dataset
           </p>
         </li>
       </ul>
@@ -107,15 +110,22 @@ const AboutSection = () => {
   return (
     <section id="about" className="text-white">
       <div className="md:grid md:grid-cols-2 gap-8 items-fix py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 ">
-        <Image src="/images/cropeddn m.jpeg" width={500} height={500} alt="picture of reshad for about section" className="justify" />
+        <Image
+          src="/images/cropeddn m.jpeg"
+          width={500}
+          height={500}
+          alt="picture of reshad for about section"
+          className="justify"
+        />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            hello I am Reshad... I&apos;ve completed my graduation on Computer Science & Engineering. 
-            Fresher, proficient in web development, machine learning, and research. 
-            Authored one conference paper in the field of NLP. Skilled in various programming 
-            languages and various libraries. Seeking new opportunities to drive innovation and
-            contribute to exciting projects 
+            hello I am Reshad... I&apos;ve completed my graduation on Computer
+            Science & Engineering. Fresher, proficient in web development,
+            machine learning, and research. Authored one conference paper in the
+            field of NLP. Skilled in various programming languages and various
+            libraries. Seeking new opportunities to drive innovation and
+            contribute to exciting projects
           </p>
           <div className="flex flex-row justify-start mt-8 ">
             <TabButton

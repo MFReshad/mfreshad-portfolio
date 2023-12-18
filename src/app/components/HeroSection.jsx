@@ -43,27 +43,31 @@ export const HeroSection = () => {
             Harmonize the future with tech & melody.
           </p>
           <div>
-          <Link href="#contact">
-            <button
-              className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 
+            <Link href="#contact">
+              <button
+                className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 
               bg-gradient-to-br from-[#2B7A78] 
               via-[#3AAFA9] to-[#DEF2F1] hover:bg-slate-200 text-white "
-            >
-              Hire Me
-            </button>
+              >
+                Hire Me
+              </button>
             </Link>
-            <Link href={"https://drive.google.com/uc?id=1QVt8rONOxLI4vGZ2z88wa7JI4vJD3LJ3&export=download"}>
-            {/*https://drive.google.com/uc?export=download&id=1QVt8rONOxLI4vGZ2z88wa7JI4vJD3LJ3*/}
-            <button
-              className="px-1 py-1 w-full sm:w-fit rounded-full mr-4
+            <Link
+              href={
+                "https://drive.google.com/uc?id=1QVt8rONOxLI4vGZ2z88wa7JI4vJD3LJ3&export=download"
+              }
+            >
+              {/*https://drive.google.com/uc?export=download&id=1QVt8rONOxLI4vGZ2z88wa7JI4vJD3LJ3*/}
+              <button
+                className="px-1 py-1 w-full sm:w-fit rounded-full mr-4
               bg-gradient-to-br from-[#2B7A78] via-[#3AAFA9] to-[#DEF2F1]
                hover:bg-slate-800 
                     text-white mt-3"
-            >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
-            </button>
+              >
+                <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                  Download CV
+                </span>
+              </button>
             </Link>
           </div>
         </motion.div>
