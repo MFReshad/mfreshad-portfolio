@@ -3,6 +3,7 @@ import React from "react"; //rafc`
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export const HeroSection = () => {
   return (
@@ -42,6 +43,7 @@ export const HeroSection = () => {
             Harmonize the future with tech & melody.
           </p>
           <div>
+          <Link href="#contact">
             <button
               className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 
               bg-gradient-to-br from-[#2B7A78] 
@@ -49,6 +51,9 @@ export const HeroSection = () => {
             >
               Hire Me
             </button>
+            </Link>
+            <Link href={"https://drive.google.com/uc?id=1QVt8rONOxLI4vGZ2z88wa7JI4vJD3LJ3&export=download"}>
+            {/*https://drive.google.com/uc?export=download&id=1QVt8rONOxLI4vGZ2z88wa7JI4vJD3LJ3*/}
             <button
               className="px-1 py-1 w-full sm:w-fit rounded-full mr-4
               bg-gradient-to-br from-[#2B7A78] via-[#3AAFA9] to-[#DEF2F1]
@@ -59,6 +64,7 @@ export const HeroSection = () => {
                 Download CV
               </span>
             </button>
+            </Link>
           </div>
         </motion.div>
         <motion.div
