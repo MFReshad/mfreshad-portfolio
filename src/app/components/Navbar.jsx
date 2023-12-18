@@ -24,12 +24,12 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
-      <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-6 py-4">
+      <div className="flex container lg:py-4 lg:px-16 flex-wrap items-center justify-between mx-auto px-6 py-4 sm:px-8 sm:py-6">
         <Link
           href={"/"}
           className="text-2xl md:text-4xl text-white text-bold"
         >
-          m_f_reshad
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3AAFA9] to-[#3AAFA9]"> m_f_reshad</span>
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
