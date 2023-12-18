@@ -7,11 +7,11 @@ const projectData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Project 1 desc",
-    image: "images/projects/3.jpg",
+    description: "Portfolio with NextJs",
+    image: "images/projects/1.jpg",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/mfreshad",
-    previewUrl: "https://youtube.com/@mfreshad",
+    gitUrl: "https://github.com/MFReshad/mfreshad-portfolio",
+    previewUrl: "https://mfreshad.vercel.app/",
   },
   {
     id: 2,
