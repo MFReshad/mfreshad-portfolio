@@ -42,9 +42,9 @@ const EmailSection = () => {
   };
 
   return (
-    <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
+    <section id="contact" className="grid md:grid-cols-2 my-12 md:my-12 py-12 sm:py-24 gap-4 relative">
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#2B7A78] to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-full -left-4 transform -translate-x-1/2 -translate-y-1/2"></div>
-      <div className="z-10">
+      <div className="z-10" style={{ marginTop: '64px', position: 'relative', zIndex: 1 }}>
         <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s connect
         </h5>
@@ -63,7 +63,7 @@ const EmailSection = () => {
           <Link href="https://facebook.com/mfreshad">
             <Image src={FacebookIcon} alt="Facebook icon" />
           </Link>
-          <Link href="https://www.youtube.com/@mfreshad/playlists">
+          <Link href="https://www.youtube.com/playlist?list=PL8_lrzlqySZF4_Ar0kM7w5BYgbYo15lUc">
             <Image src={YoutubeIcon} alt="Youtube icon" />
           </Link>
         </div>
