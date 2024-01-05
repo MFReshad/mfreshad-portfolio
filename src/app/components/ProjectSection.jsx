@@ -31,6 +31,15 @@ const projectData = [
     gitUrl: "https://github.com/MFReshad/CheckInn",
     previewUrl: "https://youtu.be/P7E23oxghlQ",
   },
+  {
+    id: 4,
+    title: "My Tiimeline",
+    description: "time for entertainment",
+    image: "images/projects/4.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/MFReshad/timeline",
+    previewUrl: "https://mfreshad.github.io/timeline/",
+  }
 ];
 const ProjectSection = () => {
   const [tag, setTag] = useState("All");
