@@ -86,11 +86,50 @@ const TAB_DATA = [
           <span className="text-[#3AAFA9]">
             Field Of Natural Language Processing
           </span>
-          <br />
+          
           <p>
             A Study on Music Genre Classification And Lyrics Generation of
             Bangla Songs Dataset
           </p>
+        </li>
+      </ul>
+    ),
+  },
+  {
+    title: "Experience",
+    id: "experience",
+    content: (
+      <ul className="list-disc pl-4"
+      >
+        <li className="py-1">
+          <p>
+          <span className="text-[#3AAFA9]">
+            Intern :-{" "}
+          </span> 
+            {" "}Asiatic Trade Marketing Service Ltd. 
+          </p>
+          <i style={{ fontSize: 12 }} className="pl-0 md:pl-15">
+            {""}Intern on IT. (Machine learning and development)
+          </i><br />
+          <i style={{ fontSize: 12 }} className="pl-0  md:pl-15">
+            {""}From: Jan-2024
+          </i>
+        </li>
+      </ul>
+    ),
+  },
+  {
+    title: "Award",
+    id: "award",
+    content: (
+      <ul className="list-disc pl-4">
+        <li className="py-1">
+          <a className="text-[#3AAFA9]" href="https://drive.google.com/uc?export=view&id=1KtpFqfcD7qoGI_Wy9Tcw2MaZn99lNKH0">National Education Week -2023</a>
+          <br />
+          <p>Deshattobodhok songeet (Patriotic song), Nazrulgeeti.</p>
+          <i style={{ fontSize: 12 }}>
+            Honourable Ex. President Md. Abdul Hamid gave the prize ceremony.
+          </i>
         </li>
       </ul>
     ),
@@ -127,7 +166,7 @@ const AboutSection = () => {
             libraries. Seeking new opportunities to drive innovation and
             contribute to exciting projects
           </p>
-          <div className="flex flex-row justify-start mt-8 ">
+          <div className="max-w-full mt-8 ">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab == "skills"}
@@ -148,6 +187,20 @@ const AboutSection = () => {
             >
               {" "}
               Publication{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("experience")}
+              active={tab == "experience"}
+            >
+              {" "}
+              Experience
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("award")}
+              active={tab == "award"}
+            >
+              {" "}
+              Award{" "}
             </TabButton>
           </div>
           <div className="mt-2">

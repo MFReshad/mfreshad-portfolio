@@ -35,7 +35,7 @@ const projectData = [
     id: 4,
     title: "My Tiimeline",
     description: "time for entertainment",
-    image: "images/projects/4.jpg",
+    image: "images/projects/4.JPG",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/MFReshad/timeline",
     previewUrl: "https://mfreshad.github.io/timeline/",

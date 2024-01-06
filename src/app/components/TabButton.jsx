@@ -6,7 +6,7 @@ const TabButton = ({ active, selectTab, children }) => {
     : "text-[#ADB7BE]";
   return (
     <button onClick={selectTab}>
-      <p className={`mr-3 font-semibold hover:text-white ${buttonClasses}`}>
+      <p className={`mr-4 font-semibold sm:text-lg md:text-xl  hover:text-white ${buttonClasses}`}>
         {children}
       </p>
     </button>
