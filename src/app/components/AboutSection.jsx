@@ -164,7 +164,7 @@ const AboutSection = () => {
             machine learning, and research. Authored one conference paper in the
             field of NLP. Skilled in various programming languages and various
             libraries. Seeking new opportunities to drive innovation and
-            contribute to exciting projects
+            contribute to exciting projects.
           </p>
           <div className="max-w-full mt-8 ">
             <TabButton
