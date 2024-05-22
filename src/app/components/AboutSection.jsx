@@ -105,6 +105,10 @@ const TAB_DATA = [
             A Study on Music Genre Classification And Lyrics Generation of
             Bangla Songs Dataset
           </p>
+          <i style={{ fontSize: 12 }}>
+            <span style={{ fontWeight: "bold" }}>DOI: </span>
+            <a href="https://doi.org/10.1109/ICCIT60459.2023.10441235">10.1109/ICCIT60459.2023.10441235</a>
+          </i>
         </li>
       </ul>
     ),
