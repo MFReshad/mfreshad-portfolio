@@ -144,7 +144,7 @@ const TAB_DATA = [
           </span>
           <br />
           <i style={{ fontSize: 12 }} className="pl-0  md:pl-15">
-            {""}01 Mar,2024&nbsp;&nbsp;-&nbsp;&nbsp;Present
+            {""}01 Mar,2024&nbsp;&nbsp;-&nbsp;&nbsp;30 Sep,2024
           </i>
         </li>
       </ul>
