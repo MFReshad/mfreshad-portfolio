@@ -23,6 +23,15 @@ const projectData = [
     previewUrl: "https://mfreshad.vercel.app/",
   },
   {
+    id: 5,
+    title: "Todo Task Manager",
+    description: "Django Rest Framework || React || Keep your task in track",
+    image: "images/projects/5.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/MFReshad/Task-Manager",
+    previewUrl: "https://youtu.be/FpTzNfip-fU",
+  },
+  {
     id: 2,
     title: "MeU | Android Project",
     description: "meU is an android application as a mental assistent.",
@@ -41,7 +50,7 @@ const projectData = [
     previewUrl: "https://youtu.be/P7E23oxghlQ",
   },
   {
-    id: 5,
+    id: 6,
     title: "My Tiimeline",
     description: "time for entertainment",
     image: "images/projects/4.JPG",
@@ -50,7 +59,7 @@ const projectData = [
     previewUrl: "https://mfreshad.github.io/timeline/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Contact Me",
     description: "All my link's list ",
     image: "images/projects/5.jpg",
